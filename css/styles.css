@@ -1,0 +1,271 @@
+
+.container-fluid {
+    padding-right: 35px;
+    padding-left: 35px;
+
+}
+body{
+    background-image: url("../img/hotel.jpg");
+    /*background-repeat: no-repeat, repeat;*/
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: auto;
+}
+.project-header{
+    background-color: #d8d8d8;
+}
+.people-header {
+
+}
+.people-header h2{
+    display: inline-block;
+    margin-top: 15px;
+}
+.ui-drop-list button{
+    margin-left: 15px;
+}
+.project-header ul{
+    line-height: 45pt;
+}
+.ui-drop-list button ,.cart button{
+    background-color: transparent;
+    border-color: transparent;
+    color: #000;
+}
+.cart-ui-img{
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.ui-header-title ul li {
+    list-style: none;
+}
+.ui-header-title{
+    background-color: #94caac;
+}
+.ui-title-left ul{
+    margin: 10px 0px ;
+    padding: 0px;
+}
+.ui-title-left{
+    padding: 0px;
+}
+.ui-title-center{
+    text-align: center;
+}
+.ui-title-right{
+    text-align: right;  
+    padding: 0px;
+
+}
+.ui-header-title ul{
+    margin: 15px 0px;
+}
+
+.ui-title-detail {
+    color: #fff;
+    margin: 15px;
+}
+
+.ui-hotel-booking{
+    display: inline-block;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 0 15px;
+    padding: 5px;
+
+}
+.ui-hotel-booking h5{
+    font-weight: 600;
+}
+.ui-add-rooms span{
+    color: #0064b7;
+}
+.ui-add-rooms {
+    margin: 5px 0px;
+}
+
+/*video*/
+.video {
+    height: 216px;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.video iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.ui-hotel-details{
+    /*border-left: 1px solid #000;*/
+}
+.ui-hotel-dates p{
+    width: 60%;
+    margin-top: 20%;
+}
+.ui-hotel-dates span{
+
+}
+.ui-hotel-dates span a:hover{
+    text-decoration: none;
+}
+
+.ui-other-hotels{
+    display: inline-block;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+
+.ui-other-hotel-details p{
+    display: inline-block;
+}
+.ui-other-hotel-details span{
+    float: right;
+}
+
+.ui-hotel-ttl,.ui-hotel-ttl-icon,.ui-hotel-ttl-cost{
+    color: #c29657;
+}
+
+.ui-hotel-ttl-icon{
+    padding: 5px;
+}
+.ui-hotel-ttl-cost{
+    text-align: right;
+}
+.ui-hotel-check{
+    border: 0px solid transparent;
+    background-color: #d8d8d8;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.ui-hotel-room{
+    margin-bottom: 20px;
+    display: -webkit-box;
+}
+
+
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+    /*display: block;*/
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+footer{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .ui-drop-list button ,.cart button{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .project-header ul {
+        line-height: 5pt;
+        margin: 0px;
+
+    }
+    .ui-title-center, .ui-title-right, .ui-title-left{
+        text-align: center;
+    }
+    .ui-header-title ul{
+        margin: 10px 0px ;
+        padding: 0px;
+    }
+    .ui-title-detail {
+        color: #fff;
+        margin: 15px 0px;
+        text-align: justify;
+    }
+    .ui-hotel-dates{
+        text-align: center;
+    }
+    .ui-hotel-dates p {
+        width: 100%;
+        margin-top: 0% !important;
+        text-align: center;
+    }
+    .ui-hotel-room {
+        margin-bottom: 20px;
+        display: block;
+    }
+    .ui-other-hotels {
+        padding: 0px 0px;
+    }
+    .people-header {
+        text-align: center;
+    }
+    .ui-title-detail p{
+        color: #000;
+    }
+    .ui-other-hotels{
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/*ipad*/
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .ui-hotel-room{
+        margin-bottom: 20px;
+        display: block;
+    }
+    .ui-title-detail p{
+        color: #000;
+    }
+    .ui-title-left {
+        padding: 0px;
+        text-align: center;
+    }
+    .ui-title-right {
+        text-align: center;
+        padding: 0px;
+    }
+}
+@media only screen 
+and (min-device-width: 1024px) 
+and (max-device-width: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .ui-hotel-room{
+        margin-bottom: 20px;
+        display: -webkit-box;
+
+
+    }
+}
